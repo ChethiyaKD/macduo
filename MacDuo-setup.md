@@ -87,6 +87,7 @@ Laptop: Moonlight (shows it fullscreen)
 - **To rebuild the app:**
   ```
   cd ~/Documents/My_Projects/screen-share-app
+  xcodegen generate
   xcodebuild -project MacDuo.xcodeproj -scheme MacDuo -configuration Release -derivedDataPath build -quiet build
   cp -R build/Build/Products/Release/MacDuo.app /Applications/
   ```
