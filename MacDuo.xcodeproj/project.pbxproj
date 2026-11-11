@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17646020FED4BF5F3C09EF5F /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D3AFA2E6A5FAF5ACC267D /* Shell.swift */; };
+		361AC541256144FC0BD064DB /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80C87DD36788F5C9EC48FF /* ShareController.swift */; };
+		3DD727B76F657B8D38450D59 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E1161274EDE7EC155D5DDD /* Settings.swift */; };
+		60665E7B5664F7C0319D927D /* AirDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03EB8618EF62AE9E173307 /* AirDrop.swift */; };
+		9B4E32A287E01BFED335C886 /* Sunshine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B4B6E3453EC04E54B0E621 /* Sunshine.swift */; };
+		A5795394C58F9F23DF69D49E /* MacDuoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322182307524B6F91C4D20D /* MacDuoApp.swift */; };
+		B0700DA48EFE79AD9E08F80F /* VirtualScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8ACC85FEF2A5FAD372F56 /* VirtualScreen.swift */; };
+		CC63363C4D580A04A6B0116B /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DBB05EB98AE1CE6E4B41 /* HotKey.swift */; };
+		F67107A5B5F2D6A2A181D876 /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5588D5C8980501DBDC6E0E /* Laptop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0322182307524B6F91C4D20D /* MacDuoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacDuoApp.swift; sourceTree = "<group>"; };
+		05E1161274EDE7EC155D5DDD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0F03EB8618EF62AE9E173307 /* AirDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDrop.swift; sourceTree = "<group>"; };
+		2A80C87DD36788F5C9EC48FF /* ShareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
+		2EA8ACC85FEF2A5FAD372F56 /* VirtualScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualScreen.swift; sourceTree = "<group>"; };
+		5C5588D5C8980501DBDC6E0E /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		7EF0DBB05EB98AE1CE6E4B41 /* HotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
+		A873CF26E57156F474F6ECBC /* MacDuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B4B6E3453EC04E54B0E621 /* Sunshine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunshine.swift; sourceTree = "<group>"; };
+		CD4D3AFA2E6A5FAF5ACC267D /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5806281B52F8A03F45B9083D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0F03EB8618EF62AE9E173307 /* AirDrop.swift */,
+				7EF0DBB05EB98AE1CE6E4B41 /* HotKey.swift */,
+				5C5588D5C8980501DBDC6E0E /* Laptop.swift */,
+				0322182307524B6F91C4D20D /* MacDuoApp.swift */,
+				05E1161274EDE7EC155D5DDD /* Settings.swift */,
+				2A80C87DD36788F5C9EC48FF /* ShareController.swift */,
+				CD4D3AFA2E6A5FAF5ACC267D /* Shell.swift */,
+				C3B4B6E3453EC04E54B0E621 /* Sunshine.swift */,
+				2EA8ACC85FEF2A5FAD372F56 /* VirtualScreen.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		722B45E85F45EAFC32F65E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A873CF26E57156F474F6ECBC /* MacDuo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925F293346296315C89E48AA = {
+			isa = PBXGroup;
+			children = (
+				5806281B52F8A03F45B9083D /* Sources */,
+				722B45E85F45EAFC32F65E72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227001C49A0BDA20ABA085C2 /* MacDuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6AF43AB32CDA0C7CC7FDDB /* Build configuration list for PBXNativeTarget "MacDuo" */;
+			buildPhases = (
+				6FC71D35C46F266AA3D38561 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacDuo;
+			packageProductDependencies = (
+			);
+			productName = MacDuo;
+			productReference = A873CF26E57156F474F6ECBC /* MacDuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441BDEE73757E11622012D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					227001C49A0BDA20ABA085C2 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 87A202E34F2E507443CB15EB /* Build configuration list for PBXProject "MacDuo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 925F293346296315C89E48AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 722B45E85F45EAFC32F65E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227001C49A0BDA20ABA085C2 /* MacDuo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC71D35C46F266AA3D38561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60665E7B5664F7C0319D927D /* AirDrop.swift in Sources */,
+				CC63363C4D580A04A6B0116B /* HotKey.swift in Sources */,
+				F67107A5B5F2D6A2A181D876 /* Laptop.swift in Sources */,
+				A5795394C58F9F23DF69D49E /* MacDuoApp.swift in Sources */,
+				3DD727B76F657B8D38450D59 /* Settings.swift in Sources */,
+				361AC541256144FC0BD064DB /* ShareController.swift in Sources */,
+				17646020FED4BF5F3C09EF5F /* Shell.swift in Sources */,
+				9B4E32A287E01BFED335C886 /* Sunshine.swift in Sources */,
+				B0700DA48EFE79AD9E08F80F /* VirtualScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F0668A2970FACC23237B136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacDuo;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roach.MacDuo;
+				PRODUCT_NAME = MacDuo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		940ECE9D29286859C7A828C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB6EB2F688289F18A2D08F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE6429AA304DA8B27CF5E643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacDuo;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roach.MacDuo;
+				PRODUCT_NAME = MacDuo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A202E34F2E507443CB15EB /* Build configuration list for PBXProject "MacDuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6EB2F688289F18A2D08F4D /* Debug */,
+				940ECE9D29286859C7A828C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB6AF43AB32CDA0C7CC7FDDB /* Build configuration list for PBXNativeTarget "MacDuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0668A2970FACC23237B136 /* Debug */,
+				FE6429AA304DA8B27CF5E643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 441BDEE73757E11622012D77 /* Project object */;
+}

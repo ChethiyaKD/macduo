@@ -1,23 +1,23 @@
-name: ScreenShare
+name: MacDuo
 options:
   bundleIdPrefix: com.roach
   deploymentTarget:
     macOS: "14.0"
 targets:
-  ScreenShare:
+  MacDuo:
     type: application
     platform: macOS
     sources: [Sources]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.roach.ScreenShare
-        PRODUCT_NAME: ScreenShare
+        PRODUCT_BUNDLE_IDENTIFIER: com.roach.MacDuo
+        PRODUCT_NAME: MacDuo
         MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
         SWIFT_VERSION: "5.0"
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_LSUIElement: YES
-        INFOPLIST_KEY_CFBundleDisplayName: ScreenShare
+        INFOPLIST_KEY_CFBundleDisplayName: MacDuo
         CODE_SIGN_IDENTITY: "-"
         CODE_SIGN_STYLE: Manual
         ENABLE_HARDENED_RUNTIME: NO

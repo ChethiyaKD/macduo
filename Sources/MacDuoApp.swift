@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct ScreenShareApp: App {
+struct MacDuoApp: App {
     @StateObject private var controller = ShareController()
 
     var body: some Scene {
@@ -57,7 +57,7 @@ struct MenuContent: View {
 
         Text("Shortcut: \(HotKey.displayString)")
 
-        Button("Quit ScreenShare") { NSApplication.shared.terminate(nil) }
+        Button("Quit MacDuo") { NSApplication.shared.terminate(nil) }
             .keyboardShortcut("q")
     }
 }
