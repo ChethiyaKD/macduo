@@ -1,4 +1,4 @@
-# Laptop as a Second Mac Screen (ScreenShare)
+# Laptop as a Second Mac Screen (MacDuo)
 
 The Mac (M1) supports only one external monitor. The old Dell XPS 13 laptop running Ubuntu now works as a second screen. It is low-lag and has no audio.
 
@@ -12,7 +12,7 @@ Laptop: Moonlight (shows it fullscreen)
 
 ## Daily use
 
-- **Start or stop:** use the ScreenShare menu bar icon on the Mac, or press **⌃⌥⌘D**.
+- **Start or stop:** use the MacDuo menu bar icon on the Mac, or press **⌃⌥⌘D**.
 - **The laptop doesn't show the screen:** choose **Reconnect Laptop** in the menu.
 - **Release the keyboard and mouse on the laptop:** press **Ctrl+Alt+Shift+Z**.
 - **Show or hide the stream stats on the laptop:** press **Ctrl+Alt+Shift+S**.
@@ -24,8 +24,8 @@ Laptop: Moonlight (shows it fullscreen)
 
 | What | Where |
 |---|---|
-| Menu bar app (source code) | `~/Projects/ScreenShare` |
-| Installed app | `/Applications/ScreenShare.app` |
+| Menu bar app (source code) | `~/Documents/My_Projects/screen-share-app` |
+| Installed app | `/Applications/MacDuo.app` |
 | Sunshine config | `~/.config/sunshine/sunshine.conf` |
 | Sunshine log | `~/.config/sunshine/sunshine.log` |
 | Sunshine web page | https://localhost:47990 (user `sunshine`) |
@@ -52,7 +52,7 @@ Laptop: Moonlight (shows it fullscreen)
    - Settings: audio off, `fec_percentage = 40`, web page open on the LAN only.
    - It has Screen Recording permission.
    - It is paired with the laptop (client name "roth").
-3. **ScreenShare menu bar app.** Written in Swift, it does every step for you.
+3. **MacDuo menu bar app.** Written in Swift, it does every step for you.
    - **Start:** turns on the virtual screen → puts it next to the main screen → points Sunshine at it → restarts Sunshine → starts Moonlight on the laptop over SSH.
    - **Stop:** does the same steps in reverse.
    - **Options:** resolution, laptop position (left/right/top/bottom), start Moonlight on the laptop, pause AirDrop (kept off), launch at login.
@@ -82,12 +82,12 @@ Laptop: Moonlight (shows it fullscreen)
 ## Notes
 
 - The laptop's IP addresses are 192.168.1.120 (cable) and 192.168.1.231 (Wi-Fi).
-  - If they change, edit `hosts` in `~/Projects/ScreenShare/Sources/Settings.swift` and rebuild.
+  - If they change, edit `hosts` in `Sources/Settings.swift` and rebuild.
   - A DHCP reservation in the router stops them from changing.
 - **To rebuild the app:**
   ```
-  cd ~/Projects/ScreenShare
-  xcodebuild -project ScreenShare.xcodeproj -scheme ScreenShare -configuration Release -derivedDataPath build -quiet build
-  cp -R build/Build/Products/Release/ScreenShare.app /Applications/
+  cd ~/Documents/My_Projects/screen-share-app
+  xcodebuild -project MacDuo.xcodeproj -scheme MacDuo -configuration Release -derivedDataPath build -quiet build
+  cp -R build/Build/Products/Release/MacDuo.app /Applications/
   ```
 - **Raspberry Pi 3B:** it can work, but only with H.264 and 100 Mbit/s Ethernet, so it won't beat the laptop.
