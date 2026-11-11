@@ -28,5 +28,5 @@ struct LaptopConfig {
     var host = "192.168.1.120"
     var user = "roach"
     var fps = 60
-    var bitrateKbps = 12000
+    var bitrateKbps = 10000
 }
