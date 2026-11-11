@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D791792A484F93B8410583B /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F6A364409F31ABFCF3F0B /* Shell.swift */; };
+		40DE8FFB4A73475B82F40A24 /* AirDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CA9F9FB800187323C22C77 /* AirDrop.swift */; };
+		47B982395BBDC3195B751750 /* Sunshine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429CA86C8DB17F5014DF0696 /* Sunshine.swift */; };
+		5C0DE14749CD2549ACB05FFB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02DD4FDFFB973B604400A3 /* Settings.swift */; };
+		890BA34160EA8D228C3DBB66 /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBED5B2F2F41F6897E764A9 /* Laptop.swift */; };
+		BDF18350591EB197965BFE50 /* ScreenShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0DB68B634E0A327A4BD98 /* ScreenShareApp.swift */; };
+		C9A694C39F52D36718638EF0 /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443098ADF546DEAE8A7AD817 /* ShareController.swift */; };
+		D9657B68EFE68707E3B957C2 /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE9BC74E376BBB40BBEF6A /* HotKey.swift */; };
+		EEA76E5CF94AB5BC4F666B52 /* VirtualScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BE4D2E839BA9E191FF3846 /* VirtualScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1D035908F2A60F62F181CF /* ScreenShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429CA86C8DB17F5014DF0696 /* Sunshine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunshine.swift; sourceTree = "<group>"; };
+		443098ADF546DEAE8A7AD817 /* ShareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
+		71B0DB68B634E0A327A4BD98 /* ScreenShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShareApp.swift; sourceTree = "<group>"; };
+		83BE9BC74E376BBB40BBEF6A /* HotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
+		936F6A364409F31ABFCF3F0B /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		B6CA9F9FB800187323C22C77 /* AirDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDrop.swift; sourceTree = "<group>"; };
+		BEBED5B2F2F41F6897E764A9 /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		CD02DD4FDFFB973B604400A3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F7BE4D2E839BA9E191FF3846 /* VirtualScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3A20947BF8244F0EC2E48719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1D035908F2A60F62F181CF /* ScreenShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF4338AD6E2B44B3E7D9769 = {
+			isa = PBXGroup;
+			children = (
+				A3BF84104E250CB185BA4F87 /* Sources */,
+				3A20947BF8244F0EC2E48719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BF84104E250CB185BA4F87 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA9F9FB800187323C22C77 /* AirDrop.swift */,
+				83BE9BC74E376BBB40BBEF6A /* HotKey.swift */,
+				BEBED5B2F2F41F6897E764A9 /* Laptop.swift */,
+				71B0DB68B634E0A327A4BD98 /* ScreenShareApp.swift */,
+				CD02DD4FDFFB973B604400A3 /* Settings.swift */,
+				443098ADF546DEAE8A7AD817 /* ShareController.swift */,
+				936F6A364409F31ABFCF3F0B /* Shell.swift */,
+				429CA86C8DB17F5014DF0696 /* Sunshine.swift */,
+				F7BE4D2E839BA9E191FF3846 /* VirtualScreen.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5BD202F7053A908970D90F /* ScreenShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1D727E9029DD61B2B45562 /* Build configuration list for PBXNativeTarget "ScreenShare" */;
+			buildPhases = (
+				C7204074A87F803D1B25240B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenShare;
+			packageProductDependencies = (
+			);
+			productName = ScreenShare;
+			productReference = 0F1D035908F2A60F62F181CF /* ScreenShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D58E33895926523AEAFE7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5B5BD202F7053A908970D90F = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B82E542734AB04A9F314F643 /* Build configuration list for PBXProject "ScreenShare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7FF4338AD6E2B44B3E7D9769;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A20947BF8244F0EC2E48719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5BD202F7053A908970D90F /* ScreenShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7204074A87F803D1B25240B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE8FFB4A73475B82F40A24 /* AirDrop.swift in Sources */,
+				D9657B68EFE68707E3B957C2 /* HotKey.swift in Sources */,
+				890BA34160EA8D228C3DBB66 /* Laptop.swift in Sources */,
+				BDF18350591EB197965BFE50 /* ScreenShareApp.swift in Sources */,
+				5C0DE14749CD2549ACB05FFB /* Settings.swift in Sources */,
+				C9A694C39F52D36718638EF0 /* ShareController.swift in Sources */,
+				2D791792A484F93B8410583B /* Shell.swift in Sources */,
+				47B982395BBDC3195B751750 /* Sunshine.swift in Sources */,
+				EEA76E5CF94AB5BC4F666B52 /* VirtualScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5756BEC3DDFF1E5BC960F027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9EE0956492947F0CC7136920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenShare;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roach.ScreenShare;
+				PRODUCT_NAME = ScreenShare;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BDE42D616896957DEAA8D68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenShare;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roach.ScreenShare;
+				PRODUCT_NAME = ScreenShare;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DAFB7CE9EEC3B21038EEBA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1D727E9029DD61B2B45562 /* Build configuration list for PBXNativeTarget "ScreenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE0956492947F0CC7136920 /* Debug */,
+				BDE42D616896957DEAA8D68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B82E542734AB04A9F314F643 /* Build configuration list for PBXProject "ScreenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFB7CE9EEC3B21038EEBA97 /* Debug */,
+				5756BEC3DDFF1E5BC960F027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D58E33895926523AEAFE7A /* Project object */;
+}
